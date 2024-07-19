@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width: 100%;
+    background-color: wheat;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 30;
+    padding-bottom: 15px;
+}
+
+nav{
+    display: flex;
+    gap: 50px;
+}
+
+nav a{
+    color: aliceblue;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+main{
+    width: 100%;
+    height: fit-content;
+}
+
+.gle{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 50%;
+}
+
+.explore{
+    color: white;
+    padding: 10px 30px;
+    border: 1px solid white;
+}
+
+.globe{
+    width: 100%;
+    height: fit-content;
+}
+
+h2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 200;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.planet{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D9D9D9;
+    gap: 10px;
+}
+
+.planet img{
+    margin-left: 10%;
+}
+
+p{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+
+p a{
+    border: 2px solid black;
+    color: black;
+    align-self: center;
+    padding: 10px 30px;
+    margin-right: 35%;
+    font-size: large;
+}
+
+.smile{
+    width: 100%;
+    height: 500px;
+}
+
+h3{
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 200;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.image{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff3c00;
+    height: 410px;
+}
+
+.image img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+footer p{
+    display: flex;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
